@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<script type="text/javascript">
+if (localStorage.pagecount)
+	{
+	localStorage.pagecount=Number(localStorage.pagecount)+1;
+	}
+else
+	{
+	localStorage.pagecount=1;
+	}
+document.write("visits: "+localStorage.pagecount+" time(s).");
+</script>
+<p>刷新页面会看到计数器在增长</p>
+</body>
+</html>
